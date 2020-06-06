@@ -1,0 +1,10 @@
+.container {
+  color: rgb(189, 188, 187);
+
+  font-size: inherit;
+  line-height: 1.7;
+
+    @media screen and (max-width: 40.625em) {
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,15 @@
+.section {
+  min-height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 9rem;  
+  
+  @media screen and (max-width: 40.625em) {
+    padding-top: 5rem;
+  }
+}
+
+.content {
+  margin-top: 3rem;
+}

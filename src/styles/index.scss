@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;  
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  line-height: 1.55; 
+
+  @media screen and (max-width: 40.625em) {
+    font-size: 1.45rem;
+    line-height: 1.5; 
+  }
+}
+
+.container {
+  background-color: #030041;
+  color: rgb(189, 188, 187);
+  overflow: hidden;
+}
+
+::selection {
+  background-color: #999;
+}
+

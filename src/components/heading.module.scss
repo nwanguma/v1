@@ -1,0 +1,29 @@
+.heading {
+    font-family: 'Roboto mono', 'Courier New', monospace;  
+    color: #146da9;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+    line-height: initial;      
+  
+    @media (max-width: 40.625em) {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;    
+    }
+  
+    span {
+      margin-left: 1rem;
+    }
+  }
+  
+  .rider {
+    color: #235365;
+    font-family: 'Roboto mono', 'Courier New', monospace;  
+    font-size: 1.8rem;
+    margin-bottom: 2rem; 
+    
+    @media (max-width: 40.625em) {
+      margin-bottom: 1rem; 
+      font-size: 2rem;        
+    }
+  }
