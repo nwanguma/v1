@@ -31,7 +31,7 @@ const Works = props => {
               githubLink="https://github.com/nwanguma/hireJuniors"
             />
             <Container
-              title="Portfolio Website"
+              title="Portfolio v1"
               description="I learned the basics of Gatsby JS to build this webpage. Gatsby is
               a React framework that creates lightening fast, accessible applications."
               tags="Tags: React, Gatsby, SCSS, GraphQL"
@@ -39,16 +39,6 @@ const Works = props => {
               alt="Preview image of portfolio website"
               demoLink="https://nwanguma.github.io"
               githubLink="https://github.com/nwanguma/nwanguma.github.io"
-            />
-            <Container
-              title="Hackernews Clone"
-              description="An exact clone of the hackernews website for a YC startup's coding
-                challenge as part of the recruitement process for a senior Frontend position."
-              tags="Tags: JavaScript ES6, SCSS, GraphQL"
-              image={Image}
-              alt="Preview image of hackernews clone website"
-              demoLink="https://nwanguma.github.io/hackernews-clone/"
-              githubLink="https://github.com/nwanguma/Hackernews-clone"
             />
             <Container
               title="Expensify"
@@ -70,6 +60,16 @@ const Works = props => {
               alt="Preview image of natours website"
               demoLink="https://nwanguma.github.io/Natours/"
               githubLink="https://github.com/nwanguma/Natours"
+            />
+            <Container
+              title="Hackernews Clone"
+              description="An exact clone of the hackernews website for a YC startup's coding
+                challenge as part of the recruitement process for a senior Frontend position."
+              tags="Tags: JavaScript ES6, SCSS, GraphQL"
+              image={Image}
+              alt="Preview image of hackernews clone website"
+              demoLink="https://nwanguma.github.io/hackernews-clone/"
+              githubLink="https://github.com/nwanguma/Hackernews-clone"
             />
             <Container
               title="Nexter Project"

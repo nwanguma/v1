@@ -20,7 +20,7 @@ const Header = props => {
         <h1 className={styles.heading}>
           <span className={styles.heading__primary}>Hello I'm Tochi.</span>
           <span className={styles.heading__secondary}>
-            Frontend Developer & Jollof Warrior.
+            Frontend Web Developer.
           </span>
         </h1>
         <p className={styles.summary}>

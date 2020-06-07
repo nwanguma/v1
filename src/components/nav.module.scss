@@ -31,20 +31,17 @@
 
   &__button {
       display: none;
-      background-color: #030041;
+      background-color: transparent;
       
-
     @media screen and (max-width: 40.625em) {
       cursor: pointer;
       display: initial;      
       height: 7rem;
       width: 7rem;
       position: fixed;
-      top: 4rem;
-      right: 3rem;
-      border-radius: 50%;
+      top: 1rem;
+      right: .5rem;
       z-index: 2000;
-      box-shadow: 00 1rem 3rem rgba(0, 0, 0, 0.167);
       transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
     }
   }
@@ -58,8 +55,8 @@
       width: 7rem;
       border-radius: 200px;
       position: fixed;
-      top: 4rem;
-      right: 3rem;
+      top: 1rem;
+      right: .5rem;
       z-index: 1000;
       transition: .3s all;
       background-color: #030041e9;

@@ -19,7 +19,8 @@ export default props => {
         I switched careers in 2019 from my former position as the principal logistics officer at
         a mid-tier FMCG firm to tech. <br></br>A couple months into my first official frontend role and 
         I couldn't be more pleased with how everything's worked out so far. <br></br>
-        I recently completed my first major project - a fully featured agent web application with React.
+        I completed my first major solo project a couple months ago
+         - a fully featured agent web application with React. 
         I talk in great detail about switching
         careers <a
           href="blog"
@@ -32,9 +33,6 @@ export default props => {
         </a>
         <br></br> 
         <br></br> 
-        
-        I spent at least two years after watching the original spiderman looking for 
-        radioactive spiders to give me superpowers, now I crawl the web and create great web pages - miracles happen!.
         I love to build things, I love to learn, starting and completing projects is one hell of a high.
       </p>
     </div>
